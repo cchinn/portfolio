@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Cassie Chinn</title>
     <link rel="stylesheet" href="styles/stylesheet.css">
-    <link href="http://fonts.googleapis.com/css?family=Cinzel%7CPontano%20Sans" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="display:none">
     <header>
         <h1>Hi, I'm Cassie.</h1>
         <h2>I'm a recent University of Washington grad trying to get into front-end web development.</h2>
@@ -20,5 +20,13 @@
         <a href="index.html"><i class="fa fa-tree fa-5x"></i><i class="fa fa-home fa-5x"></i><i class="fa fa-car fa-2x"></i></a>
         <p>Never forget your way home... <i class="fa fa-level-up"></i></p>
     </footer>
+    
+<script>    
+$(document).ready(function(){
+    $("body").fadeIn(2000);
+});
+    
+</script>
+    
 </body>
 </html>

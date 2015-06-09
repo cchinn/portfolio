@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <title>Etsy</title>
     <link rel="stylesheet" href="styles/stylesheet.css">
-    <link href="http://fonts.googleapis.com/css?family=Cinzel%7CPontano%20Sans" rel="stylesheet" type="text/css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
-<body>
+<body style="display:none">
     <header>
-        <h1>Etsy <i class="fa fa-scissors"></i></i></h1><h1 class="return"><a href="projects.html"><i class="fa fa-desktop"></i> <i class="fa fa-reply-all"></i></a></h1>
+        <h1>Etsy <i class="fa fa-scissors"></i></h1><h1 class="return"><a href="projects.html"><i class="fa fa-desktop"></i> <i class="fa fa-reply-all"></i></a></h1>
         <h2>Electronic Commerce Company</h2>
         <h3>Etsy is a peer-to-peer e-commerce website focused on handmade or vintage items and supplies.</h3>
     </header>
     
     <p>
-        <a href="http://etsy.com" target="_blank"><img src="images/etsy.png" alt="etsy" width="1260px" height="757px"></a> 
+        <a href="http://etsy.com" target="_blank"><img src="images/etsy.png" alt="etsy" width="1260" height="757"></a> 
     </p>
     
     <p>
@@ -28,5 +28,12 @@
         <a href="index.html"><i class="fa fa-tree fa-5x"></i><i class="fa fa-home fa-5x"></i><i class="fa fa-car fa-2x"></i></a>
     </footer>
 
+<script>    
+$(document).ready(function(){
+    $("body").fadeIn(2000);
+});
+    
+</script>    
+    
 </body>    
 </html>
